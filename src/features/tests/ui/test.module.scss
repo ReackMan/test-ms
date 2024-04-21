@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.progressBars {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.testOver {
+  display: flex;
+  flex-flow: column;
+}

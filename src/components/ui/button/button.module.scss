@@ -4,9 +4,16 @@
   cursor: pointer;
 
   box-sizing: border-box;
+  width: 10rem;
+  height: 2rem;
 
   font-family: inherit;
-  color: inherit;
+  font-size: 1rem;
+  font-weight: var(--font-weight-regular);
+  color: var(--color-light-100);
+  text-align: center;
+
+  border-radius: 5px;
 
   &:focus-visible {
     outline: 2px solid var(--color-info-500);
@@ -14,7 +21,7 @@
 }
 
 .primary {
-  background-color: var(--color-accent-500);
+  background-color: var(--color-danger-500);
 }
 
 .secondary {
